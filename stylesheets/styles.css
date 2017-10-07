@@ -23,6 +23,11 @@ body {
   transition: transform 0.5s;
 }
 
+.fixed-nav .site-wrap {
+  transform: scale(1);
+
+}
+
 header {
   align-items:center;
   background:url(http://wes.io/iEgP/wow-so-deep.jpg) bottom center no-repeat;
@@ -75,6 +80,10 @@ li.logo {
   max-width:0;
   overflow: hidden;
   transition: all .5s;
+}
+
+.fixed-nav li.logo {
+max-width: 500px;
 }
 
 li.logo a {
